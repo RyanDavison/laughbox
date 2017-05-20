@@ -1,0 +1,104 @@
+body{
+background-color:#1C8BB8;
+font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+#box{
+  margin: 0 auto;
+max-width: 25em;
+min-height: 25em;
+background-color: yellow;
+padding: 1em 2em 2em 2em;
+}
+
+#facebook{
+	float: left;
+	margin-right:1em;
+}
+#twitter{
+	float: left;
+}
+
+#social{
+	margin-left:33%;
+}
+
+@media only screen and (max-width: 320px) {
+    #box {
+      height: 31.5em;
+    }
+    #social{
+	margin-left:23%;
+	}
+}
+
+h1{
+  text-align: center;
+}
+
+p{
+	margin: 1em auto;
+  text-align: justify;
+}
+
+.onoffswitch {
+  position: relative;
+  max-width: 180px;
+  margin: 0 auto;
+  -webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select: none;
+}
+
+
+input[type="checkbox"], input[type="radio"] {
+    display: none;
+}
+
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #FFFFF; border-radius: 11px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 67px; padding: 0; line-height: 67px;
+    font-size: 40px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 21px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 21px;
+/*    background-color: #EEEEEE; */
+    background-color:lightgray;
+    color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 48px; margin: 9.5px;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF; border-radius: 11px;
+    position: absolute; top: 0; bottom: 0; right: 109px;
+    -moz-transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+}
+
+footer{
+  max-width: 38em;
+  font-size: 0.6em;
+  margin: 3em auto 0 2em;
+}
