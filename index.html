@@ -19,7 +19,7 @@
   <meta name="description" content="Laughter is the best medicine. This app provides a dose of that medicine">
   <meta name="author" content="Ryan Davison">
 
-  <title>LaughCube</title>
+  <title>The Laugh Cube</title>
 
   <link rel="stylesheet" href="css/style.css">
 	<link rel="canonical" href="http://laughcube.com/">
@@ -28,16 +28,16 @@
 <body>
 
   <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
 
-      <div id="box">
+      <!-- <div id="box">
         <h1>THE LAUGH CUBE</h1>
         <p>
             They say laughter is the best medicine. I'm not really sure who "they" are or what sickness laughter is best for but who am I to question them? What I do know is that laughter is contagious (It might be a virus) but it's a lot more fun than the flu.
@@ -63,7 +63,53 @@
      </div>
       <div id='twitter'> <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
       </div>
+    </div> -->
+
+
+
+    <div id="wrapper">
+      <div class="cube">
+        <!--Front-->
+        <div>
+          <h1>THE LAUGH CUBE</h1>
+        <p>
+            They say laughter is the best medicine. I'm not really sure who "they" are or what sickness laughter is best for but who am I to question them? What I do know is that laughter is contagious (It might be a virus) but it's a lot more fun than the flu.
+        </p>
+        <audio id="laugh" loop="" preload="">
+            <source src="audio/LaughMp3Ed.mp3" type="audio/mpeg">
+            <source src="audio/LaughMp3Ed.ogg" type="audio/ogg">
+            Sorry, your browser does not support HTML5 audio.
+        </audio>
+        <section title="Make sure your sound is turned up." class="onoffswitch">
+            <input type="checkbox" value="laugh" name="onoffswitch" class="onoffswitch-checkbox" id="onoffswitch">
+            <label class="onoffswitch-label" for="onoffswitch">
+                <span class="onoffswitch-inner"></span>
+                <span class="onoffswitch-switch"></span>
+            </label>
+        </section>
+        <footer class="two column">Warning: Laughter is not intended to diagnose, treat or cure any medical conditions. Some people have experienced changes in behavior, flushing, shortness of breath, light-headedness, numbness, watering eyes and runny nose while laughing. If you experience these or any other abnormal symptoms, stop laughing and call your doctor immediately.</footer><br>
+      </div>
+        <!--Back-->
+        <div></div>
+        <!--Left-->
+        <div></div>
+        <!--Right-->
+        <div></div>
+        <!--Top-->
+        <div></div>
+        <!--Bottom-->
+        <div></div>
+      </div>
     </div>
+    <aside id='social'>
+          <section id='facebook'>
+            <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+       </section>
+          <section id='twitter'> <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></span>
+          </section>
+        </aside>
+
+
 <style>
 	.adsbygoogle{
 		width:100% !important;
