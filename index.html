@@ -2,95 +2,42 @@
 <html lang="en">
 <head>
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-88821394-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-88821394-1');
-</script>
-
-
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Laughter is the best medicine. This app provides a dose of that medicine">
   <meta name="author" content="Ryan Davison">
 
-  <title>The Laugh Cube</title>
+  <title>LaughSquare</title>
 
   <link rel="stylesheet" href="css/style.css">
-	<link rel="canonical" href="http://laughcube.com/">
 
 </head>
 <body>
 
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
 
-    <div id="wrapper">
-      <div class="cube">
-        <!--Front-->
-        <div>
-          <h1>THE LAUGH CUBE</h1>
+      <div id="box">
+        <h1>THE LAUGH SQUARE</h1>
         <p>
             They say laughter is the best medicine. I'm not really sure who "they" are or what sickness laughter is best for but who am I to question them? What I do know is that laughter is contagious (It might be a virus) but it's a lot more fun than the flu.
         </p>
-        <audio id="laugh" loop="" preload="">
-            <source src="audio/LaughMp3Ed.mp3" type="audio/mpeg">
-            <source src="audio/LaughMp3Ed.ogg" type="audio/ogg">
-            Sorry, your browser does not support HTML5 audio.
-        </audio>
-        <section title="Make sure your sound is turned up." class="onoffswitch">
-            <input type="checkbox" value="laugh" name="onoffswitch" class="onoffswitch-checkbox" id="onoffswitch">
-            <label class="onoffswitch-label" for="onoffswitch">
-                <span class="onoffswitch-inner"></span>
-                <span class="onoffswitch-switch"></span>
-            </label>
-        </section>
-        <footer class="two column">Warning: Laughter is not intended to diagnose, treat or cure any medical conditions. Some people have experienced changes in behavior, flushing, shortness of breath, light-headedness, numbness, watering eyes and runny nose while laughing. If you experience these or any other abnormal symptoms, stop laughing and call your doctor immediately.</footer><br>
+      <audio id="laugh" loop="" preload="">
+          <source src="audio/LaughMp3Ed.mp3" type="audio/mpeg">
+          <source src="audio/LaughMp3Ed.ogg" type="audio/ogg">
+          Sorry, your browser does not support HTML5 audio.
+      </audio>
+      <div class="onoffswitch">
+          <input type="checkbox" value="laugh" name="onoffswitch" class="onoffswitch-checkbox" id="onoffswitch">
+          <label class="onoffswitch-label" for="onoffswitch">
+              <span class="onoffswitch-inner"></span>
+              <span class="onoffswitch-switch"></span>
+          </label>
       </div>
-        <!--Back-->
-        <div></div>
-        <!--Left-->
-        <div></div>
-        <!--Right-->
-        <div></div>
-        <!--Top-->
-        <div></div>
-        <!--Bottom-->
-        <div></div>
-      </div>
+      <footer class="two column">Warning: Laughter is not intended to diagnose, treat or cure any medical conditions. Some people have experienced changes in behavior, flushing, shortness of breath, light-headedness, numbness, watering eyes and runny nose while laughing. If you experience these or any other abnormal symptoms, stop laughing and call your doctor immediately.</footer><br>
     </div>
-    <aside id='social'>
-          <section id='facebook'>
-            <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-       </section>
-          <section id='twitter'> <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></span>
-          </section>
-        </aside>
 
 
 <script src="scripts/audio.js"></script>
-
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-88821394-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 
 </body>
 </html>

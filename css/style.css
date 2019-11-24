@@ -20,9 +20,7 @@ padding: 1em 2em 2em 2em;
 }
 
 #social{
-	/* margin-left:33%; */
-  width: 9em;
-  margin: 8em auto;
+	margin-left:33%;
 }
 
 @media only screen and (max-width: 320px) {
@@ -41,8 +39,6 @@ h1{
 p{
 	margin: 1em auto;
   text-align: justify;
-  padding:0 2em;
-  font-size:.9em;
 }
 
 .onoffswitch {
@@ -103,79 +99,6 @@ input[type="checkbox"], input[type="radio"] {
 
 footer{
   max-width: 38em;
-  font-size: 0.7em;
-  margin: 1em 2em 0 2em;
-}
-
-section {
-  display:block;
-}
-
-aside{
-  display:block;
-  margin:3em auto;
-}
-
-
-
-#wrapper{
-  width:400px;
-  height:400px;
-  perspective:700px;
-  -webkit-perspective:700px;
-  margin:100px auto;
-}
-
-.cube{
-  position:relative;
-  width:350px;
-  height:350px;
-  padding:3em;
-  transform-style:preserve-3d;
-  transform:rotateY(-30deg) rotateX(0deg);
-
-}
-
-.cube div{
-  position:absolute;
-  width:350px;
-  height:350px;
-  background:rgba(0,0,0,0.1);
-}
-
-.cube div:nth-child(1){
-  transform:translateZ(175px);
-  background:yellow;
-  border: 1px solid black;
-
-}
-
-.cube div:nth-child(2){
-  transform: rotateX(180deg) translateZ(175px);
-  background:yellow;
-  border: 1px solid black;
-}
-
-.cube div:nth-child(3){
-  transform: rotateY(-90deg) translateZ(175px);
-  background:yellow;
-  border: 1px solid black;
-}
-
-.cube div:nth-child(4){
-  transform:rotateY(90deg) translateZ(175px);
-  background:yellow;
-  border: 1px solid black;
-}
-
-.cube div:nth-child(5){
-  transform: rotateX(90deg) translateZ(175px);
-  background:yellow;
-  border: 1px solid black;
-}
-
-.cube div:nth-child(6){
-  transform:rotateX(-90deg) translateZ(175px);
-  background:yellow;
-  border: 1px solid black;
+  font-size: 0.6em;
+  margin: 3em auto 0 2em;
 }
